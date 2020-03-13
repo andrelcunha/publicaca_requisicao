@@ -17,16 +17,15 @@
 * Exportar o banco:	
 	* Arquivo único por objeto
 	* No botão _Avançado_
-		* Gerar script de USE DATABASE: __False__
-		* Incluir cabeçalhos descritivos: __False__
-		* Gatilhos de script: __True__
-	* Gerar para pasta de scripts (E:\SVN\ **\<NomeDoProjeto\>** \branches\ **<num_req_ou_inc>**\BD\SCRIPTS)
-	* Texto ANSI
+		* Gerar script de USE DATABASE: __"False"__.
+		* Incluir cabeçalhos descritivos: __"False"__.
+		* Gatilhos de script: __"True"__.
+	* Gerar para pasta de scripts (E:\SVN\ **\<NomeDoProjeto\>** \branches\ **<num_req_ou_inc>**\BD\SCRIPTS).
+	* Texto ANSI.
 
 * Publicar em homologação.
-	* Executar publicação via Jenkins
-	* Executar script de transformação da base
-* Criar tag
+	* Executar publicação via Jenkins.
+	* Executar script de transformação da base.
 * Colocar informações adicionar no chamado (SD).
 * Informar via chamado que a tarefa está pronta para homologar.
 * Homologar com o cliente.
@@ -35,7 +34,8 @@
 * Substituir o trunk com o seu branch.
 * Fazer o commit do novo trunk.
 * Montar nova tag.
+* Negociar uma janela de horário para publicação com o cliente.
 * Avisar aos interessados de que será feita uma nova implantação.
 * Criar chamado para publicar scripts de transformação;
-* Executar publicação da tag no jenkins
+* Executar publicação da tag no jenkins.
 * Apagar seu branch local.
